@@ -1,0 +1,36 @@
+{
+  "campaign_name": "Coherence_Hypothesis_Definitive_v5",
+  "output_directory": "experiment_outputs_final",
+  "debug": {
+    "enabled": true,
+    "log_interval": 50
+  },
+  "experimental_design": {
+    "campaign_type": "lhs",
+    "lhs_samples": 50,
+    "trials_per_param_set": 3
+  },
+  "parameter_space": {
+    "p_instantiate": [0.05, 0.25, "uniform"],
+    "b_reinforce": [0.1, 0.3, "uniform"],
+    "d_fade": [0.5, 0.8, "uniform"],
+    "initial_energy": [8.0, 15.0, "uniform"],
+    "parent_propagate_energy_cost": [0.8, 2.0, "uniform"]
+  },
+  "constants": {
+    "max_steps": 500,
+    "jaccard_threshold": 0.5,
+    "max_graph_nodes_hard_limit": 25000
+  },
+  "analysis": {
+    "bootstrap_samples": 1000,
+    "leak_check_sample_size": 20,
+    "leak_check_path_cutoff": 4
+  },
+  "plotting": {
+    "primary_plot_palette": "viridis",
+    "representative_plot_palette": "coolwarm",
+    "heatmap_palette": "magma",
+    "dpi": 300
+  }
+}
