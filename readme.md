@@ -33,5 +33,4 @@ This simulation campaign explores these interdisciplinary connections by generat
 - **Boundary Effects**:  
   Functional tests show delayed signal propagation at structure peripheries, consistent with primitive causal insulation or proto–Markov-blanket behavior.
 
-## Repository Structure
 
