@@ -1,0 +1,59 @@
+# === Python bytecode and cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+*.pyd
+*.pkl
+*.pickle
+*.dill
+
+# === Jupyter notebook metadata ===
+.ipynb_checkpoints/
+
+# === Environment / virtualenv ===
+env/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.poetry/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Logs ===
+*.log
+*.out
+*.err
+
+# === Configs and experiment meta ===
+config.json
+campaign_log.csv
+
+# === Data and outputs ===
+data/
+data/raw/
+data/processed/
+*.npy
+*.npz
+*.csv
+*.tsv
+*.json
+*.yaml
+
+
+# === Experiment outputs ===
+experiment_outputs_final/
+best_run_data.pkl
+*.gif
+*.mp4
+
+# === System-specific ===
+.DS_Store
+Thumbs.db
+desktop.ini
